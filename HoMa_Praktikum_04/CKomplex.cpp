@@ -2,6 +2,12 @@
 
 
 
+void CKomplex::null()
+{
+	img = 0;
+	real = 0;
+}
+
 double CKomplex::abs()
 {
 	double betrag = sqrt(real * real + img * img);
