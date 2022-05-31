@@ -14,8 +14,8 @@ public:
 	double re();
 	double im();
 	double abs();
-
-
+	void null();
+	void operator=(CKomplex b);
 
 };
 
